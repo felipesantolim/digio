@@ -20,3 +20,29 @@ Utilizei os seguintes pacotes SPM:
 
 Criei e configurei o projeto sem storyboard e scene por default.
 
+Separei o app em Sections e Supporting Files:
+
+### Sections: 
+
+Cada section possui as abstrações (no minimo): 
+
+- [x] View
+- [x] ViewModel
+- [x] Flow
+
+1. View: Parte visual, viewcontroller, cells, customs views etc.
+2. ViewModel: Responsável por aplicar a logica de negócio dentro da view.
+3. Flow: Abstração do fluxo de navegação e responsável por fazer a injeção de dependência do flow seguinte se necessário.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <sub>
+          <b>Iuri Silva</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
