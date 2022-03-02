@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ProductViewCell" customModule="Digio_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bug-nQ-yDU">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="200"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Produtos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpI-qS-r2Y">
+                                <rect key="frame" x="10" y="10" width="100" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="2Mm-81-Jsb"/>
+                                    <constraint firstAttribute="height" constant="25" id="gis-1v-P4M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="20"/>
+                                <color key="textColor" red="0.15438047050000001" green="0.16945886609999999" blue="0.27844354510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hoU-dV-cJF">
+                                <rect key="frame" x="10" y="35" width="380" height="155"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="hoU-dV-cJF" secondAttribute="bottom" constant="10" id="Pwa-Ys-rIm"/>
+                            <constraint firstAttribute="trailing" secondItem="hoU-dV-cJF" secondAttribute="trailing" constant="10" id="VsR-fK-OSa"/>
+                            <constraint firstItem="hoU-dV-cJF" firstAttribute="top" secondItem="EpI-qS-r2Y" secondAttribute="bottom" id="XuN-gc-nmd"/>
+                            <constraint firstItem="hoU-dV-cJF" firstAttribute="leading" secondItem="Bug-nQ-yDU" secondAttribute="leading" constant="10" id="ZMe-if-NDQ"/>
+                            <constraint firstItem="EpI-qS-r2Y" firstAttribute="leading" secondItem="Bug-nQ-yDU" secondAttribute="leading" constant="10" id="i9Y-Fk-YRi"/>
+                            <constraint firstItem="EpI-qS-r2Y" firstAttribute="top" secondItem="Bug-nQ-yDU" secondAttribute="top" constant="10" id="zUT-Ya-yQc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Bug-nQ-yDU" secondAttribute="bottom" id="Tdm-rh-l93"/>
+                <constraint firstItem="Bug-nQ-yDU" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Zrq-7x-oii"/>
+                <constraint firstItem="Bug-nQ-yDU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="kXq-DM-QYj"/>
+                <constraint firstAttribute="trailing" secondItem="Bug-nQ-yDU" secondAttribute="trailing" id="z2P-ZZ-Hdq"/>
+            </constraints>
+            <connections>
+                <outlet property="boxView" destination="hoU-dV-cJF" id="g1c-mN-HoZ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="101.78571428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>
