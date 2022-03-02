@@ -38,11 +38,94 @@ Cada section possui as abstrações (no minimo):
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://github.com/felipesantolim/digio/blob/main/app-imgs/Screen%20Shot%202022-03-01%20at%2021.53.15.png" width="300px;" alt=""/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Digio App - MVVM</b>
         </sub>
       </a>
     </td>
   </tr>
 </table>
+
+## 🚀 Protótipo App Digio:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/felipesantolim/digio/blob/main/app-imgs/Screen%20Shot%202022-03-01%20at%2021.04.31.png" width="300px;" alt=""/><br>
+        <sub>
+          <b>Digio App - MVVM</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 📝 Curiosidades:
+
+- [x] Generics 
+- [x] Extensions
+
+### Generics: Criei um generics base para ficar mais simples a abstração das células customizadas.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/felipesantolim/digio/blob/main/app-imgs/Screen%20Shot%202022-03-01%20at%2022.08.22.png" width="300px;" alt=""/><br>
+        <sub>
+          <b>Digio App - MVVM</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+### Extensions: Criei algumas extensions para facilitar o uso do flow, collection e classname.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/felipesantolim/digio/blob/main/app-imgs/Screen%20Shot%202022-03-01%20at%2022.08.03.png" width=300px;" alt=""/><br>
+        <sub>
+          <b>Digio App - MVVM</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+                                                                                                                                                 
+### BaseCollectionViewCell:
+                                                                                                                                                 
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/felipesantolim/digio/blob/main/app-imgs/Screen%20Shot%202022-03-01%20at%2022.12.02.png" width=300px;" alt=""/><br>
+        <sub>
+          <b>Digio App - MVVM</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table> 
+
+## ☕ + Plus:
+
+- [x] ViewCode 
+- [x] URLSession
+- [x] Codable
+
+## ☕ O que faria com + tempo:
+
+- [x] Mais um nível de abstração da view em relação a view controller.
+- [x] Testes Unitários.
+- [x] Testes UI.
+- [x] Tratamento de erros.
+- [x] Fix "layout" (melhorias).
+
+## 🚀🚀🚀 Protótipo App Digio (movie) 🚀🚀🚀 :
+
+https://user-images.githubusercontent.com/3669521/156277050-7f97dffd-5a39-4d71-82a7-0cc517ab810a.mov
