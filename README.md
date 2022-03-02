@@ -128,4 +128,6 @@ Cada section possui as abstrações (no minimo):
 
 ## 🚀🚀🚀 Protótipo App Digio (movie) 🚀🚀🚀 :
 
+https://user-images.githubusercontent.com/3669521/156277616-2f67e7a2-d42f-40ca-837e-52ed3706fcfe.mov
+
 https://user-images.githubusercontent.com/3669521/156277050-7f97dffd-5a39-4d71-82a7-0cc517ab810a.mov
